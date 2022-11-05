@@ -63,12 +63,42 @@
 
 //5th Task
 
+let A = +prompt("PLease enter the value");
+while (isNaN(A) || A == "") {
+  A = +prompt("PLease enter the number");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //6th Task
 
 //7th Task
 
 // let A = +prompt("PLease enter the value");
 // while (isNaN(A) || A == "") {
-//   A = +prompt("PLease enter the number");
+//     A = +prompt("PLease enter the number");
 // }
-// let revers=0;
+// let reverse = 0;
+// while(A>0) {
+//     reverse *= 10;
+//     reverse += A % 10;
+//     A = Math.floor(A / 10);
+// }
+// console.log(reverse);
